@@ -10,6 +10,19 @@ namespace P2_CoinToss
             int randomNbr = rand.Next(1,3); //generate a random # between 1 and 2
 
             Console.WriteLine(randomNbr);
+
+            // 1 = heads
+            // 2 = tails
+
+            // Ask the user for heads or tails
+
+            // generate random number (done above)
+
+            // Convert either the user's answer to an int or our random number to a string
+
+            // See if they guessed right with the newly converted value
+
+
         }
     }
 }
