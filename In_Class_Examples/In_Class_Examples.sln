@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_FizzBuzz", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals_PowerPoint_Problem", "Conditionals_PowerPoint_Problem\Conditionals_PowerPoint_Problem.csproj", "{CC727366-5628-4CE5-963D-CB89A095FDEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_While", "Loops_While\Loops_While.csproj", "{84556403-13DA-43A3-B7BA-027EDF5FBFA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_While", "Loops_While\Loops_While.csproj", "{84556403-13DA-43A3-B7BA-027EDF5FBFA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops_For", "..\Loops_For\Loops_For.csproj", "{E9B576BF-C751-4E56-A68B-C047470A893A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_For", "..\Loops_For\Loops_For.csproj", "{E9B576BF-C751-4E56-A68B-C047470A893A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files_ReadingInABook", "Files_ReadingInABook\Files_ReadingInABook.csproj", "{53811C55-B11A-4397-97C7-120F0F745EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{7C58DD8F-5F1C-46F7-9739-651B51F4D6B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{E9B576BF-C751-4E56-A68B-C047470A893A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9B576BF-C751-4E56-A68B-C047470A893A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9B576BF-C751-4E56-A68B-C047470A893A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53811C55-B11A-4397-97C7-120F0F745EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53811C55-B11A-4397-97C7-120F0F745EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53811C55-B11A-4397-97C7-120F0F745EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53811C55-B11A-4397-97C7-120F0F745EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C58DD8F-5F1C-46F7-9739-651B51F4D6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C58DD8F-5F1C-46F7-9739-651B51F4D6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C58DD8F-5F1C-46F7-9739-651B51F4D6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C58DD8F-5F1C-46F7-9739-651B51F4D6B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
