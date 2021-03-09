@@ -24,6 +24,7 @@ namespace StringManipulation
             //                                      T         + AylOr 
             string artistWithProperName = artist.ToUpper()[0] + artist.Substring(1, 6)
                 + artist.ToUpper()[7] + artist.Substring(8);
+
             //       T               +   wift
 
             string realProblem = "tAylOr SwIFt, tHe WeEknD, TRaVis sCoTt, aRiANa gRAndE, bIlLiE eiLiSh";

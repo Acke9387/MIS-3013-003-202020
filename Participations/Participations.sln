@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P1_SumOf3", "P1_SumOf3\P1_SumOf3.csproj", "{AC1BBBC3-460F-4E31-A4ED-10273D9CFC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_CoinToss", "P2_CoinToss\P2_CoinToss.csproj", "{5F0B7CC7-B48E-42D3-9593-4F3DA6415B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P2_CoinToss", "P2_CoinToss\P2_CoinToss.csproj", "{5F0B7CC7-B48E-42D3-9593-4F3DA6415B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3_String_Manipulation", "P3_String_Manipulation\P3_String_Manipulation.csproj", "{0E2F6D28-0B12-408C-A699-85873E552F5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5F0B7CC7-B48E-42D3-9593-4F3DA6415B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F0B7CC7-B48E-42D3-9593-4F3DA6415B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F0B7CC7-B48E-42D3-9593-4F3DA6415B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2F6D28-0B12-408C-A699-85873E552F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2F6D28-0B12-408C-A699-85873E552F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2F6D28-0B12-408C-A699-85873E552F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2F6D28-0B12-408C-A699-85873E552F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
