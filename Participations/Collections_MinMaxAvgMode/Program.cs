@@ -32,15 +32,30 @@ namespace Collections_MinMaxAvgMode
             } while (answer.ToLower()[0] == 'y');
 
             double min = grades[0];
+            double max = grades[0];
+            double sum = 0; // accumulator to add up all our #'s
+            double avg = 0;
             foreach (double grade in grades)
             {
                 if (grade < min)
                 {
                     min = grade;
                 }
+
+                if (grade > max)
+                {
+                    max = grade;
+                }
+
+
+                sum = sum + grade;
             }
 
+            avg = sum / grades.Count;
+
             Console.WriteLine($"Your minimum exam grade is {min.ToString("N2")}.");
+            Console.WriteLine($"Your maximum exam grade is {max.ToString("N2")}.");
+            Console.WriteLine($"Your average exam grade is {avg.ToString("N2")}.");
 
             int maxOccurrences = 0;
             foreach (double key in examGrades.Keys)
