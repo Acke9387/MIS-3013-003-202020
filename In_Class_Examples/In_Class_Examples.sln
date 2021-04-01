@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Dictionaries", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections_Lists", "..\Collections_Lists\Collections_Lists.csproj", "{CC5253D7-29E8-4374-87DF-A4EA1FCF1782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files_ReadingInCSVAndParsing", "Files_ReadingInCSVAndParsing\Files_ReadingInCSVAndParsing.csproj", "{1BE81D61-8BB9-4E2A-9B44-0C0C7C244BB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files_ReadingInCSVAndParsing", "Files_ReadingInCSVAndParsing\Files_ReadingInCSVAndParsing.csproj", "{1BE81D61-8BB9-4E2A-9B44-0C0C7C244BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions_Example1", "Functions_Example1\Functions_Example1.csproj", "{18524B6B-29BF-4D8D-9D8C-6D2B5817B646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{1BE81D61-8BB9-4E2A-9B44-0C0C7C244BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE81D61-8BB9-4E2A-9B44-0C0C7C244BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE81D61-8BB9-4E2A-9B44-0C0C7C244BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18524B6B-29BF-4D8D-9D8C-6D2B5817B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18524B6B-29BF-4D8D-9D8C-6D2B5817B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18524B6B-29BF-4D8D-9D8C-6D2B5817B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18524B6B-29BF-4D8D-9D8C-6D2B5817B646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
